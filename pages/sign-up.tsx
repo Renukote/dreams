@@ -1,5 +1,4 @@
-import { Button } from '../components/atoms/Button.tsx/Button';
-import { LoginForm } from '../components/organisms/Login.tsx/Login';
+import { SignUpForm } from '../components/organisms/SignUp/SignUp';
 import { NavBar } from '../components/organisms/Navbar.tsx/Navbar';
 
 export default function LoginPage() {
@@ -8,7 +7,7 @@ export default function LoginPage() {
       <NavBar />
 
       <div className='w-full flex justify-center my-10'>
-        <LoginForm />
+        <SignUpForm />
       </div>
     </>
   );
